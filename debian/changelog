@@ -1,5 +1,56 @@
-nvim-snippy (1.1.0-1) UNRELEASED; urgency=medium
+nvim-snippy (1.1.0-1) unstable; urgency=medium
 
-  * Initial release.
+  [ Dimitry Ishenko ]
+  * Add Debian packaging
 
- -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Tue, 08 Jul 2025 18:30:29 -0400
+  [ dcampos ]
+  * fix: handle exclusive selection
+  * fix(ci): add workaround for undo_ftplugin error
+  * fix(ci): remove cache
+  * fix(ci): update actions
+  * test: move tests to nvim-test
+  * feat: set different filetypes for snippets
+  * test: remove references to alter_slashes
+  * test: pin vusted for the time being
+  * Revert "test: fix unit tests"
+  * test: fix unit tests
+  * docs: fix links
+  * docs: improve docs on SnippyEdit
+  * fix: respect file argument for SnippyEdit
+
+  [ Peter Aronoff ]
+  * fix: initialize M.selected_text with nil
+
+  [ dcampos ]
+  * test: move common code to helpers
+
+  [ Wadii Hajji ]
+  * fix(SnippyEdit): fix typo
+
+  [ dcampos ]
+  * test: change functional tests to conform to new nvim naming
+
+  [ Luca Saccarola ]
+  * feat(SnippyEdit): open snippet file on curret ft
+
+  [ dcampos ]
+  * test: restore --shuffle for functional tests
+  * test: fix functional tests for nvi master
+  * test: fix removed helper
+
+  [ Kafva ]
+  * fix: highlight priority keyword in snippets files
+
+  [ dcampos ]
+  * fix: remove uneeded tbl_flatten
+  * feat: allow editing all scopes when ft is empty
+  * fix: ignore empty filetype for defining scopes
+  * text: remove skip() reference
+  * test: add missing after_each()
+  * test: split functional tests
+  * test: skip virtual marker tests for earlier versions
+  * tests: return value correctly
+  * test: only test virtual markes on 0.10
+  * feat: add experimental insert mode virtual markers
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Tue, 08 Jul 2025 18:48:15 -0400
