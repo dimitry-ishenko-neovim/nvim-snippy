@@ -1,0 +1,27 @@
+Source: nvim-snippy
+Section: editors
+Priority: optional
+Maintainer: Dimitry Ishenko <dimitry.ishenko@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-vim-addon,
+Standards-Version: 4.6.2
+Homepage: https://github.com/dcampos/nvim-snippy
+Vcs-Browser: https://github.com/dimitry-ishenko-neovim/nvim-snippy
+Vcs-Git: https://github.com/dimitry-ishenko-neovim/nvim-snippy.git
+
+Package: nvim-snippy
+Architecture: all
+Depends:
+ ${misc:Depends},
+ neovim (>= 0.7.0),
+Description: Snippet plugin for neovim written in Lua
+ Snippet plugin for neovim written in Lua.
+ .
+ Features:
+   * Uses the built-in extmarks feature
+   * Support for defining multiple snippets in a single file
+   * Support for expanding LSP provided snippets
+   * Full support for the syntax and file format used by SnipMate
+   * No dependencies

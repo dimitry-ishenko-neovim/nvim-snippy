@@ -1,0 +1,1 @@
+autoload doc ftdetect ftplugin indent lua plugin usr/share/nvim-snippy
