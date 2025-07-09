@@ -1,3 +1,21 @@
+nvim-snippy (1.1.0-5-g6e5a-1) unstable; urgency=medium
+
+  [ Dimitry Ishenko ]
+  * Merge tag 'v1.1.0-5-g6e5a'
+
+  [ dcampos ]
+  * fix(ci): remove windows/macos test setup
+  * fix(ci): use apt for luarocks setup
+
+  [ Ihor Kalnytskyi ]
+  * Use non-deprecated version of `vim.validate()`
+
+  [ dcampos ]
+  * test: use version number instead of "stable"
+  * docs: document functions/objects
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Tue, 08 Jul 2025 22:39:31 -0400
+
 nvim-snippy (1.1.0-1) unstable; urgency=medium
 
   [ Dimitry Ishenko ]
