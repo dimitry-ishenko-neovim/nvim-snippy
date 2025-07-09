@@ -1,3 +1,9 @@
+nvim-snippy (1.1.0-5-g6e5a-2) unstable; urgency=medium
+
+  * d/control: add missing dep
+
+ -- Dimitry Ishenko <dimitry.ishenko@gmail.com>  Wed, 09 Jul 2025 01:25:14 -0400
+
 nvim-snippy (1.1.0-5-g6e5a-1) unstable; urgency=medium
 
   [ Dimitry Ishenko ]
